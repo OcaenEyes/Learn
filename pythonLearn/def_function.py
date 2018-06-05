@@ -15,4 +15,3 @@ def add(x,y):
 
 add(1,3)
 
-print('asasd')
