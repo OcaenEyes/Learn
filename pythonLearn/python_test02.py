@@ -1,5 +1,4 @@
-#!/usr/bin/python3
-# -*- coding:utf-8 -*-
+# _*_ coding:utf-8 _*_
 '''
 	date:2018-06-02
 	version:0.1.0

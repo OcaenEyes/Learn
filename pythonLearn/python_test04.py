@@ -1,5 +1,4 @@
-#!/usr/bin/python3
-# -*- coding:utf-8 -*-
+# _*_ coding:utf-8 _*_
 '''
     auth:gzy
     version:0.1.0

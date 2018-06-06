@@ -1,5 +1,4 @@
-#!/usr/bin/python3
-#-*- coding:UTF-8 -*-
+# _*_ coding:UTF-8 _*_
 import sys
 import locale
 import io
