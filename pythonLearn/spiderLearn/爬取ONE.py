@@ -28,7 +28,7 @@ class One(object):
         return  headers
 
     def get_urls(self):
-        for i in range(14,20):
+        for i in range(2000,2246):
             urls = self.root_url + '/one/'+str(i)
             self.get_data(urls)
 
