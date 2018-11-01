@@ -34,8 +34,12 @@ class CPUPrice(object):
 
     def get_price(self,html):
         soup = BeautifulSoup(html,'html.parser')
-        price = soup.select('.price-type')
-        print(price)
+        prices = soup.select('.price-type')
+        print('参考价格',prices)
+        jdprices = soup.select('.b2c-jd .price')
+        print('京东价格',jdprices)
+        tmallprices = soup.select('.b2c-tmall .price')
+        print('天猫价格',tmallprices)
 
     def get_pages(self,url):
         try:
